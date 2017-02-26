@@ -1,0 +1,2 @@
+# getinspired
+Random Quotes generator
