@@ -1,98 +1,40 @@
 body{
-    color: #f5f6f7;
-    font: 20px "Montserrat", sans-serif;
-    line-height: 1.8;
+  background-color: #ddd;
+  color: #2d2d22;
 }
 
-p{
-	font-size: 16px;
+.intro {
+/*   text-align: center; */
+  
 }
 
-@media only screen and (min-width: 768px){
- 	.intro, .what{
-	padding-left: 20%;
-	padding-right: 20%;
-	}
+.author {
+  padding: 12px;
+  text-align:  right;
 }
 
-.margin {
-	margin-bottom: 45px;
+.quote{
+/*   visibility: hidden; */
+  
+  background: #fffff1;
+  border-radius:  3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  padding-top: 15px;
+  
+  transition: box-shadow 0.5s;
 }
 
-.navbar {
-    background-color: #1abc9c;
-    border: 0;
-    border-radius: 0;
-    font-family: Montserrat, sans-serif;
-    font-size: 12px ;
-    letter-spacing: 4px;
-    line-height: 1.42857143 ;
-    margin-bottom: 0;
-    z-index: 9999;
-}
-
-.navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-}
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    background-color: #fff !important;
-    color: #1abc9c !important;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-}
-
-.img-responsive{
-	display: inline;
-	width: 100%;
+.margin{
+  margin-bottom: 40px;
 }
 
 
-.img-circle{
 
-	/*To make the high resolution dp responsive. */
-
-	    max-width: 25%;
-    	min-width: 130px;
-}
-
-.container-fluid{
-	padding-bottom: 70px;
-	padding-top: 70px;
-	width: 100%;
-
-}
-
-.btn{
-	padding-top: 10px;
-}
-
-.bg-1{
-	background-color: #1abc9c;
-	color: #FFFFFF;
-}
-
-.bg-2{
-	background-color: #474e5d;
-	color: #FFFFFF;
-}
-
-.bg-3{
-	background-color: #ffffff;
-	color: #555555;
-}
-
-.bg-4{
-	background-color: #2f2f2f;
-	color: #ffffff;
-}
+/*////////////////////////////////////////////////////////////////*/
 
 .social{
-	width: 50px
 	background-color: white;
+    width: 50px;
 }
 
 svg path {
