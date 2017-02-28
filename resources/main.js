@@ -7,9 +7,7 @@ var settings = {
   "headers": {
     "x-mashape-key": "QSXfLpT0vymsh4ryclHotYsvlf58p1mtfGajsniaxFZjv7yNUx",
     "content-type": "application/x-www-form-urlencoded",
-    "accept": "application/json",
-    "cache-control": "no-cache",
-    "postman-token": "fff157a0-a2fc-5328-3a93-07e2667f9631"
+    "accept": "application/json"
   }
 };
 
